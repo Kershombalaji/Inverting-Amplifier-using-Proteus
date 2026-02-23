@@ -27,7 +27,15 @@ The input sine wave is applied through R1 and output is taken from pin 6.
 
 ## Tabulation
 Input Voltage (Vin)	Theoretical Gain (Av)	Theoretical Vout	Practical Vout (Proteus)
-<img width="1058" height="451" alt="image" src="https://github.com/user-attachments/assets/f54c4aed-5fed-4fa2-9223-6ebc2e25c629" />
+| S.No | Input Voltage (Vin) | Theoretical Gain (Av) | Theoretical Vout (V) | Practical Vout (Proteus) (V) |
+| ---- | ------------------- | --------------------- | -------------------- | ---------------------------- |
+| 1    | 0.1 V               | -10                   | -1 V                 | -0.98 V                      |
+| 2    | 0.2 V               | -10                   | -2 V                 | -1.97 V                      |
+| 3    | 0.3 V               | -10                   | -3 V                 | -2.95 V                      |
+| 4    | 0.5 V               | -10                   | -5 V                 | -4.9 V                       |
+| 5    | 0.7 V               | -10                   | -7 V                 | -6.85 V                      |
+| 6    | 1.0 V               | -10                   | -10 V                | -9.8 V                       |
+
 
 ## Simulation Procedure (Proteus)
 1.	Open Proteus Design Suite
